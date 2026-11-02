@@ -1,0 +1,13 @@
+{
+  "name": "resume-site-tools",
+  "private": true,
+  "type": "module",
+  "description": "Asset generators: contour art, 3MF drawings, screenshots, video clips",
+  "dependencies": {
+    "d3-contour": "^4.0.2",
+    "ffmpeg-static": "^5.2.0",
+    "playwright-core": "^1.48.0",
+    "simplex-noise": "^4.0.3",
+    "three": "^0.170.0"
+  }
+}

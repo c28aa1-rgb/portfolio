@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion",
+  "type": "script",
+  "author": "Adli Abdel-Misih",
+  "description": { "": "Exports the open design (3MF, renders, facts) into the resume site's public/media/fusion folder." },
+  "supportedOS": "windows|mac",
+  "editEnabled": true
+}

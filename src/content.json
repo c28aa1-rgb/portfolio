@@ -1,0 +1,243 @@
+{
+  "person": {
+    "firstName": "Adli",
+    "lastName": "Abdel-Misih",
+    "school": "The Dalton School",
+    "classOf": "2028",
+    "tagline": "",
+    "email": "abdelmisiha@gmail.com",
+    "links": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/c28aa1-rgb"
+      }
+    ]
+  },
+  "about": {
+    "photo": null,
+    "bio": [
+      "TODO: Two or three sentences in your own voice. Where you're from, what you spend your time on, and what you want to study or build next.",
+      "TODO: Optional second paragraph. A specific story works better than a list of traits."
+    ],
+    "facts": [
+      {
+        "label": "School",
+        "value": "The Dalton School"
+      },
+      {
+        "label": "Class of",
+        "value": "2028"
+      },
+      {
+        "label": "Based in",
+        "value": "New York, NY"
+      },
+      {
+        "label": "AREAS OF INTEREST",
+        "value": "Engineering and AI"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "apex",
+      "title": "APEX Racing",
+      "kind": "Browser racing game",
+      "year": "2026",
+      "summary": "A racing game that runs in the browser, with seven real-world circuits, eleven cars and a physics-based car model.",
+      "details": [
+        "Time trials with medals, personal ghosts and a leaderboard.",
+        "Party mode: up to eight drivers race online from a shared lobby, with live positions shared across all devices.",
+        "I also created a 60-second teaser trailer from in-engine footage (video on the left)."
+      ],
+      "stack": [
+        "TypeScript",
+        "React",
+        "Three.js",
+        "Rapier physics",
+        "Cloudflare Workers"
+      ],
+      "media": {
+        "type": "trailer",
+        "src": "media/apex-trailer.mp4",
+        "poster": "media/apex-poster.jpg",
+        "alt": "APEX Racing teaser trailer"
+      },
+      "links": [
+        {
+          "label": "Play it",
+          "href": "https://c28aa1-rgb.github.io/apex-racing/"
+        }
+      ]
+    },
+    {
+      "id": "casino",
+      "title": "UES Underground Casino",
+      "kind": "Multiplayer web game",
+      "year": "2026",
+      "summary": "A fake money casino I launched at school. It quickly grew a user base of ~50 players in less than an hour and was blocked by the school's IT.",
+      "details": [
+        "Blackjack, roulette, poker, hi-lo, dice, mines, slots, plinko as well as Chicken Cross and Jetstream.",
+        "Everything runs on play money, and a leaderboard allows others to see their standing amongst other players."
+      ],
+      "stack": [
+        "TypeScript",
+        "React",
+        "Vite",
+        "Firebase",
+        "Node"
+      ],
+      "media": {
+        "type": "gallery",
+        "src": "media/casino.jpg",
+        "images": [
+          "media/casino.jpg",
+          "media/casino-roulette.jpg",
+          "media/casino-slots.jpg",
+          "media/casino-plinko.jpg",
+          "media/casino-blackjack.jpg"
+        ],
+        "alt": "Dalton Casino screens"
+      },
+      "links": [
+        {
+          "label": "Play it",
+          "href": "https://c28aa1-rgb.github.io/Arcade-Game/"
+        }
+      ]
+    },
+    {
+      "id": "enight",
+      "title": "Game Night",
+      "kind": "Board game night app",
+      "year": "2026",
+      "summary": "A game-night site that runs party games on one shared screen while everyone plays from their phone.",
+      "details": [
+        "Eight games so far: Codenames, Wavelength, Hues & Cues, Mafia, Hitster, Chameleon, Herd Mentality and Draft.",
+        "In Codenames, the board shows on the big screen while each team's spymaster sees the key on their own phone."
+      ],
+      "stack": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Node",
+        "Express",
+        "Socket.IO"
+      ],
+      "media": {
+        "type": "gallery",
+        "src": "media/gamenight-home.jpg",
+        "images": [
+          "media/gamenight-home.jpg",
+          "media/enight-codenames.jpg",
+          "media/gamenight-wavelength.jpg",
+          "media/gamenight-hues.jpg"
+        ],
+        "alt": "Game Night screens"
+      },
+      "links": [
+        {
+          "label": "Open it",
+          "href": "https://game-night-qnpb.onrender.com"
+        }
+      ]
+    },
+    {
+      "id": "cuts",
+      "title": "Richards Cuts",
+      "kind": "Booking site",
+      "year": "TODO: Year",
+      "summary": "A booking site for $20 haircuts in Exeter, New Hampshire. Customers pick a day and a 30-minute slot, and the booking lands on the calendar.",
+      "details": [
+        "Confirmation emails include a signed cancel link, so customers can cancel without an account.",
+        "Staff manage the day's bookings from a separate admin page."
+      ],
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Firebase",
+        "Google Apps Script"
+      ],
+      "media": {
+        "type": "image",
+        "src": "media/cuts.jpg",
+        "alt": "Richards Cuts booking page"
+      },
+      "links": [
+        {
+          "label": "Book a cut",
+          "href": "https://richards-cuts.web.app/"
+        }
+      ]
+    }
+  ],
+  "builds": [
+    {
+      "title": "Fishing organizer",
+      "kind": "3D printing · Fusion",
+      "note": "Inserts for the three tackle drawers on a boat, modeled in Fusion as three drawer components (15 bodies). Compartments are sized for specific gear, with labels like Leaders, Hi-Lo and Striped Bass printed into the walls.",
+      "photo": "media/fusion/fishing-organizer-iso-top-left.png",
+      "photoHover": "media/fusion/fishing-organizer-top.png",
+      "images": [
+        "media/fusion/fishing-organizer-iso-top-left.png",
+        "media/fishing/organizer-lures.jpg",
+        "media/fishing/organizer-rigs.jpg",
+        "media/fishing/organizer-softbaits.jpg",
+        "media/fusion/fishing-organizer-top.png"
+      ]
+    },
+    {
+      "title": "Home A320 Cockpit",
+      "kind": "Woodworking",
+      "note": "Created from wood and sim hardware, I attempted to remodel the captains side of a Airbus A320 in as much detail as I could.",
+      "photo": "media/builds/a320-cockpit.jpg"
+    },
+    {
+      "title": "Fishing Desk",
+      "kind": "WOODWORKING",
+      "note": "A desk with hidden popup drawers that contain essentials for tying rigs for future fishing expeditions. Outfitted with tackle drawers, a pegboard for tools, and a line dispenser it is ready for any rig you could imagine",
+      "photo": "media/builds/fishing-desk.jpg"
+    }
+  ],
+  "hobbies": [
+    {
+      "id": "fishing",
+      "title": "Fishing",
+      "story": "TODO: Where you fish, what for, and one moment you remember.",
+      "stat": {
+        "value": "TODO",
+        "label": "TODO: e.g. biggest catch"
+      },
+      "photo": "media/hobbies/fishing-tuna.jpg"
+    },
+    {
+      "id": "flying",
+      "title": "Flying",
+      "story": "TODO: What you fly (lessons, drones, RC planes) and what got you into it.",
+      "stat": {
+        "value": "TODO",
+        "label": "TODO: e.g. hours logged"
+      },
+      "photo": null
+    }
+  ],
+  "alsoInto": [
+    "Aerial Photography",
+    "Theater Lighting",
+    "Robotics",
+    "Graphic Design"
+  ],
+  "sports": [
+    {
+      "sport": "Soccer",
+      "years": "2024–present",
+      "role": "JV in 9th and 10th grade, varsity in 11th"
+    },
+    {
+      "sport": "Basketball",
+      "years": "2024–present",
+      "role": "JV in 9th and 10th grade, varsity in 11th"
+    }
+  ]
+}
